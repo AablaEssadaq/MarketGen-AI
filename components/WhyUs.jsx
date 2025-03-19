@@ -16,7 +16,7 @@ const WhyUs = () => {
           <div className="container space-y-8">
             <h2 data-aos="fade-down" data-aos-duration="2000" data-aos-once="true" className="text-2xl md:text-3xl font-bold font-inter text-center">Why Choose MarketGen AI?</h2>
             <div className="mt-18 grid gap-8 md:grid-cols-3">
-              <div data-aos="flip-left" data-aos-duration="2000" data-aos-once="true" className="flex flex-col items-center text-center space-y-3 p-6 border border-primary rounded-xl">
+              <div data-aos="flip-left" data-aos-duration="2000" className="flex flex-col items-center text-center space-y-3 p-6 border border-primary rounded-xl">
                 <div className="flex justify-center items-center gap-3">
                   <BrainCircuit className="w-16 h-16 text-primary" />
                   <h3 className="text-lg font-medium font-source text-left">AI-driven insights for better decision-making</h3>
