@@ -1,12 +1,13 @@
 "use client"
 
+import Aos from "aos"
+import { Menu, X } from "lucide-react"
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { Menu, X } from "lucide-react"
 import Animation from "./Animation"
-import Aos from "aos"
 
 const Navbar = () => {
+
 
   useEffect(() => {
       Aos.init(); // Optional: Add animation duration
@@ -103,7 +104,7 @@ const Navbar = () => {
 
       <section className="lg:h-[calc(100vh-4rem)] px-4 sm:px-6 md:px-[40px] lg:px-[90px] bg-background flex flex-col md:flex-row justify-between items-center">
         <div className="space-y-4 w-full md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          <h1 data-aos="fade-up" data-aos-duration="2000" className="text-2xl md:text-2xl lg:text-3xl text-secondary font-bold font-libre max-sm:mt-8">
+          <h1 data-aos="fade-up" data-aos-duration="2000" className="text-2xl md:text-2xl lg:text-3xl text-secondary font-semibold font-libre max-sm:mt-8">
             AI-Powered Marketing. <span className="text-accent">Simplified!</span>
           </h1>
           <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300" className="text-subText md:text-sm lg:text-base">
