@@ -57,7 +57,7 @@ const Contact = () => {
         <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" className=" text-3xl md:text-4xl font-inter font-bold text-text mb-4">Contact Us</h2>
         <p data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" className="text-subText">We're here to help! Send us a message and we'll get back to you as soon as possible.</p>
         <br/>
-        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300" className="max-md:w-full w-2/3 bg-white rounded-3xl border border-placeholder/20 px-4 py-6 mt-5 ">
+        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true" className="max-md:w-full w-2/3 bg-white rounded-3xl border border-placeholder/20 px-4 py-6 mt-5 ">
         <Form {...form} >
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
         <div className='grid max-sm:grid-cols-1 grid-cols-2 gap-3 max-sm:gap-6'>

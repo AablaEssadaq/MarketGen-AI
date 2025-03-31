@@ -21,7 +21,7 @@ const Pricing = () => {
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 md:w-3/4 lg:w-full items-start px-4 py-5 max-w-7xl">
-        <div data-aos="zoom-in" data-aos-duration="1000" className="mt-8">
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" className="mt-8">
           <div className=" bg-white rounded-3xl border border-placeholder flex flex-col px-4 py-6 hover:scale-102 transition-all duration-300">
             <div className="flex justify-between items-center">
               <p className="text-md font-source text-subText capitalize">Chosen by 150k customers</p>
@@ -43,7 +43,7 @@ const Pricing = () => {
             </div>
            </div>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" className="mt-2">
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true" className="mt-2">
           <div data-aos-delay="300" className=" bg-white rounded-3xl border border-placeholder flex flex-col px-4 py-6 shadow-[0_0_40px_-4px_rgba(85,200,222,0.6)] hover:scale-103 hover:shadow-[0_0_40px_-4px_rgba(85,200,222,0.7)] transition-all duration-300">
             <div className="flex justify-between items-center">
               <p className="text-md font-source text-subText capitalize">Chosen by 82k customers</p>
@@ -65,7 +65,7 @@ const Pricing = () => {
             </div>
           </div>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" className="mt-8">
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" className="mt-8">
           <div data-aos-delay="500" className=" bg-white rounded-3xl border border-placeholder flex flex-col px-4 py-6 hover:scale-102 transition-all duration-300">
             <div className="flex justify-between items-center">
               <p className="text-md font-source text-subText capitalize">Chosen by 10k entreprises</p>

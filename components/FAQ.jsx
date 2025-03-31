@@ -24,7 +24,7 @@ const FAQ = () => {
       <div className='flex flex-col items-center'>
       {QA.map((q,index) => {
         return (
-        <Accordion data-aos="fade-up" data-aos-duration="1000" key={index} className=' max-md:w-full w-2/3 bg-white text-text rounded-xl px-4 py-1 mb-3' type="single" collapsible>
+        <Accordion data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" key={index} className=' max-md:w-full w-2/3 bg-white text-text rounded-xl px-4 py-1 mb-3' type="single" collapsible>
         <AccordionItem value={index + 1}>
         <AccordionTrigger className='text-secondary text-md cursor-pointer'>{q.question}</AccordionTrigger>
             <AccordionContent>

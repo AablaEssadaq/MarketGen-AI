@@ -25,6 +25,7 @@ const Testimonials = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="2000"
+          data-aos-once="true"
           key={index}
           className="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
         >
